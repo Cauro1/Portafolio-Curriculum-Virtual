@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h2>Jeremy Alejandro Cauro Peraza</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección principal -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hola, soy <span class="highlight">Jeremy Cauro</span></h1>
+            <h2>Desarrollador de Páginas Web - Analista en Sistemas</h2>
+            <p>Soy un estudiante del 4°to semestre actualmente de la IUTEPI; un apasionado desarrollador en crear soluciones usando Python, FastAPI y tecnologías modernas.</p>
+            <div class="hero-buttons">
+                <a href="#experience" class="btn btn-primary">Ver Experiencia</a>
+                <a href="#contact" class="btn btn-secondary">Contáctame</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="/static/Images/profile/foto-perfil.png" 
+                class="profile-image">
+                
+    <!-- En caso que haya un fallo en la foto de perfil, lo mostrará vacio -->
+
+        <div class="profile-placeholder" style="display: none;">
+                <i class="fas fa-user fa-8x"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy un desarrollador apasionado por la tecnología con experiencia en crear aplicaciones web modernas y eficientes. Me especializo en desarrollo backend con Python y FastAPI, pero también disfruto trabajando en el frontend para crear experiencias de usuario excepcionales.</p>
+                    <p>Mi enfoque se centra en escribir código limpio, mantenible y escalable, siempre buscando las mejores prácticas y patrones de diseño.</p>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>cauroperazajeremyalejandro@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+58 412-9340714</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Acarigua, Venezuela</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3>Tecnologías y Habilidades</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Backend</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">FastAPI</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Frontend</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">HTML5</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Base de Datos</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">PostgreSQL</span>
+                                <span class="skill-tag">MySQL</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>DevOps & Herramientas</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Windows</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Linux</span>
+                                <span class="skill-tag">C++</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Experiencia -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experiencia Universitaria</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Desarrollador de Páginas Web</h3>
+                        <span class="timeline-period">2025 - Presente</span>
+                        <p>Desarrollo y mantenimiento de APIs RESTful con FastAPI, implementación de microservicios y optimización de bases de datos. Especializado en crear soluciones escalables y eficientes para aplicaciones web modernas.</p>
+                        <div class="experience-technologies">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¡Hablemos!</h3>
+                    <p>¿Tienes un proyecto en mente? Me encantaría escucharte y colaborar contigo para hacerlo realidad.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <span>cauroperazajeremyalejandro@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <span>+58 412-9340714</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Ubicación</h4>
+                                <span>Acarigua, Venezuela</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" action="/contact" method="post">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Tu nombre completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Asunto del mensaje" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Cuéntame sobre tu proyecto o cómo puedo ayudarte..." rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; I.U.T.E.P.I - Jeremy Cauro. Todos los derechos reservados - 2025.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" title="Portafolio">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
