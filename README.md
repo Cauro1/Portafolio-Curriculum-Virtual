@@ -1,2 +1,3 @@
 # Portafolio-Curriculum-Virtual
-J.C
+Portafolio-Curriculum-Virtual
+Resumen de habilidades y de historial academico
